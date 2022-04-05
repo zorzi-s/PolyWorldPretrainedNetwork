@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="assets/logo.png" width="320">
-</p>
+
+<img src="assets/logo.png" width="320">
+
 
 ### Research @ TUGraz & BlackShark.ai (CVPR 2022)
 
