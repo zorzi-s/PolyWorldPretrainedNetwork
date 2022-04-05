@@ -1,0 +1,53 @@
+SOFTWARE LICENSE AGREEMENT
+
+BlackShark.ai Software – 2022, all rights reserved, hereinafter "the Software".
+
+This software has been developed by researchers of ICG and BlackShark.ai.
+
+Institute of Computer Graphics and Vision (ICG), Inffeldgasse 16/II,
+8010 Graz, Austria
+
+BlackShark.ai, Am Eisernen Tor 1/3
+8010 Graz, Austria
+
+BlackShark.ai holds all the ownership rights on the Software.
+
+The Software is still being currently developed. It is the BlackShark.ai's aim for the Software 
+to be used by the scientific community so as to test it and, evaluate it so that BlackShark.ai may improve it.
+
+For these reasons BlackShark.ai has decided to distribute the Software.
+
+BlackShark.ai grants to the academic user, a free of charge, without right to sub license non-exclusive right 
+to use the Software for research purposes for a period of one (1) year from the date of the download 
+of the source code. Any other use without of prior consent of BlackShark.ai is prohibited.
+
+The academic user explicitly acknowledges having received from BlackShark.ai all information allowing him 
+to appreciate the adequacy between of the Software and his needs and to undertake all necessary 
+precautions for his execution and use.
+
+The Software is provided only as a source.
+
+In case of using the Software for a publication or other results obtained through the use of the Software, 
+user should cite the Software as follows :
+
+@article{zorzi2021polyworld,
+  title={PolyWorld: Polygonal Building Extraction with Graph Neural Networks in Satellite Images},
+  author={Zorzi, Stefano and Bazrafkan, Shabab and Habenschuss, Stefan and Fraundorfer, Friedrich},
+  journal={arXiv preprint arXiv:2111.15491},
+  year={2021}
+}
+
+Every user of the Software could communicate to the developers [stefano.zorzi@icg.tugraz.at] 
+his or her remarks as to the use of the Software.
+
+THE USER CANNOT USE, EXPLOIT OR COMMERCIALLY DISTRIBUTE THE SOFTWARE WITHOUT PRIOR AND EXPLICIT CONSENT 
+OF BlackShark.ai (sbazrafkan@blackshark.ai). ANY SUCH ACTION WILL CONSTITUTE A FORGERY.
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY NATURE AND ANY EXPRESS OR IMPLIED WARRANTIES,
+WITH REGARDS TO COMMERCIAL USE, PROFESSIONAL USE, LEGAL OR NOT, OR OTHER, OR COMMERCIALIZATION OR ADAPTATION.
+
+UNLESS EXPLICITLY PROVIDED BY LAW, IN NO EVENT, SHALL BlackShark.ai OR THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, 
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
+GOODS OR SERVICES, LOSS OF USE, DATA, OR PROFITS OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
