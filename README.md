@@ -62,10 +62,11 @@ A download link for the PolyWorld predictions corresponding to the val-set of th
 If you use any ideas from the paper or code from this repo, please consider citing:
 
 ```
-@article{zorzi2021polyworld,
+@inproceedings{zorzi2022polyworld,
   title={PolyWorld: Polygonal Building Extraction with Graph Neural Networks in Satellite Images},
   author={Zorzi, Stefano and Bazrafkan, Shabab and Habenschuss, Stefan and Fraundorfer, Friedrich},
-  journal={arXiv preprint arXiv:2111.15491},
-  year={2021}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1848--1857},
+  year={2022}
 }
 ```
