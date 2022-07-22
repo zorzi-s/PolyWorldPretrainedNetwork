@@ -12,10 +12,15 @@ PolyWorld is a research project conducted by the Institute of Computer Graphics 
   <img src="assets/teaser.png" width="450">
 </p>
 
-- Paper PDF: [PolyWorld: Polygonal Building Extraction with Graph Neural Networks in Satellite Images
-](https://arxiv.org/abs/2111.15491)
+- Paper PDF: [PolyWorld: Polygonal Building Extraction with Graph Neural Networks in Satellite Images](https://arxiv.org/abs/2111.15491)
 
 - Authors: Stefano Zorzi, Shabab Bazrafkan, Stefan Habenschuss, Friedrich Fraundorfer
+
+- Video: [YouTube link](https://youtu.be/C80dojBosLQ)
+
+- Poster: [Seafile link](https://files.icg.tugraz.at/f/6a044f133c0d4dd992c5/)
+
+
 
 ## Dependencies
 
