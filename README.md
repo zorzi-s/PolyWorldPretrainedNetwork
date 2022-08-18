@@ -32,6 +32,8 @@ PolyWorld is a research project conducted by the Institute of Computer Graphics 
 
 After cloning the repo, download the _polyworld_backbone_ pre-trained weights from [here](https://files.icg.tugraz.at/f/a0375b84e10a44aea669/?dl=1), and place the file in the _trained_weights_ folder.
 
+The CrowdAI Mapping Challenge dataset can be downloaded [here](https://files.icg.tugraz.at/d/a9d6a9412c0f49a88ab9/).
+
 ## Run the evaluation on the CrowdAI Mapping Challenge dataset
 
 To run the evaluation, specify batch size, image folder, and annotation file of the CrowdAI dataset in the main function of the _prediction.py_ script.
