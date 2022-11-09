@@ -35,8 +35,8 @@ def single_annotation(image_id, poly):
 
 
 def prediction(batch_size, images_directory, annotations_path):
-    torch.autograd.set_detect_anomaly(True)
 
+    # Load network modules
     model = R2U_Net()
     model = model.cuda()
     model = model.train()
@@ -52,11 +52,16 @@ def prediction(batch_size, images_directory, annotations_path):
     matching = matching.cuda()
     matching = matching.train()
 
+    # NOTE: The modules are set to .train() mode during inference to make sure that the BatchNorm layers 
+    # rely on batch statistics rather than the mean and variance estimated during training. 
+    # Experimentally, using batch stats makes the network perform better during inference.
+
     print("Loading pretrained model")
     model.load_state_dict(torch.load("./trained_weights/polyworld_backbone"))
     head_ver.load_state_dict(torch.load("./trained_weights/polyworld_seg_head"))
     matching.load_state_dict(torch.load("./trained_weights/polyworld_matching"))
 
+    # Initiate the dataloader
     CrowdAI_dataset = CrowdAI(images_directory=images_directory, annotations_path=annotations_path)
     dataloader = DataLoader(CrowdAI_dataset, batch_size=batch_size, shuffle=False, num_workers=batch_size)
 
@@ -103,4 +108,3 @@ if __name__ == '__main__':
     prediction(batch_size=6,
             images_directory="/home/stefano/Workspace/data/mapping_challenge_dataset/raw/val/images/",
             annotations_path="/home/stefano/Workspace/data/mapping_challenge_dataset/raw/val/annotation.json")
-
