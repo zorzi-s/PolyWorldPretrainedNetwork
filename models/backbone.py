@@ -148,7 +148,7 @@ class NonMaxSuppression(nn.Module):
         for b in range(B):
             x_b = x[b,0]
             idx = torch.topk(x_b.flatten(), self.n_peaks).indices
-            idx_i = idx // W
+            idx_i = torch.div(idx, W, rounding_mode='floor')
             idx_j = idx % W
             idx = torch.cat((idx_i.unsqueeze(1), idx_j.unsqueeze(1)), dim=1)
             idx = idx.unsqueeze(0)
@@ -176,3 +176,4 @@ class NonMaxSuppression(nn.Module):
         # Sample top peaks
         graph = self.sample_peaks(x)
         return x, graph
+
