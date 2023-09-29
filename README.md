@@ -68,7 +68,7 @@ A download link for the PolyWorld predictions corresponding to the val-set of th
 
 If you use any ideas from the paper or code from this repo, please consider citing:
 
-```
+```bibtex
 @inproceedings{zorzi2022polyworld,
   title={PolyWorld: Polygonal Building Extraction with Graph Neural Networks in Satellite Images},
   author={Zorzi, Stefano and Bazrafkan, Shabab and Habenschuss, Stefan and Fraundorfer, Friedrich},
