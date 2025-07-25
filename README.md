@@ -18,7 +18,7 @@ PolyWorld is a research project conducted by the Institute of Computer Graphics 
 
 - Video: [YouTube link](https://youtu.be/C80dojBosLQ)
 
-- Poster: [Seafile link](https://files.icg.tugraz.at/f/6a044f133c0d4dd992c5/)
+- Poster: [GDrive link](https://drive.google.com/file/d/1S1i6762r5kEaIe5GVpgTluEC8CfUzqJ0/view?usp=sharing)
 
 
 
@@ -30,9 +30,9 @@ PolyWorld is a research project conducted by the Institute of Computer Graphics 
 
 ## Getting started
 
-After cloning the repo, download the _polyworld_backbone_ pre-trained weights from [here](https://files.icg.tugraz.at/f/a0375b84e10a44aea669/?dl=1), and place the file in the _trained_weights_ folder.
+After cloning the repo, download the _polyworld_backbone_ pre-trained weights from [here](https://drive.google.com/file/d/1pK7FDg6CphCvSiOyeC2Lx3UEOQ2UPrdj/view?usp=sharing), and place the file in the _trained_weights_ folder.
 
-The CrowdAI Mapping Challenge dataset can be downloaded [here](https://files.icg.tugraz.at/d/a9d6a9412c0f49a88ab9/).
+The CrowdAI Mapping Challenge dataset can be downloaded [here](https://drive.google.com/drive/folders/1pm0wlp0gmSMDgCcDOwl8VGjS9nXfvYUd?usp=sharing).
 
 ## Run the evaluation on the CrowdAI Mapping Challenge dataset
 
@@ -60,9 +60,9 @@ If you want to compute IoU and C-IoU metrics, use the _coco_IoU_cIoU.py_ script.
 
 A download link for the PolyWorld predictions corresponding to the val-set of the CrowdAI dataset is also provided:
 
-- [json results](https://files.icg.tugraz.at/d/1c7a26dd914d4e1fae98/): here you can find the output annotations in json format with and without using refinement vertex offsets.
+- [json results](https://drive.google.com/drive/folders/1Btau6_4y04GfNTC1uY_c_UTzH4D5k8D4?usp=sharing): here you can find the output annotations in json format with and without using refinement vertex offsets.
 
-- [shp results](https://files.icg.tugraz.at/d/06c7119eb35f431ca4c2/): here you can find archives containing the shapefile annotations ready to be visualized in QGIS.
+- [shp results](https://drive.google.com/drive/folders/1_AsNVYv-el-yu_ib-54PkYRMQSkz1PJe?usp=sharing): here you can find archives containing the shapefile annotations ready to be visualized in QGIS.
 
 ## BibTeX citation
 
@@ -75,5 +75,13 @@ If you use any ideas from the paper or code from this repo, please consider citi
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={1848--1857},
   year={2022}
+}
+
+@inproceedings{zorzi2023re,
+  title={Re: PolyWorld-A graph neural network for polygonal scene parsing},
+  author={Zorzi, Stefano and Fraundorfer, Friedrich},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={16762--16771},
+  year={2023}
 }
 ```
